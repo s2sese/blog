@@ -1,0 +1,37 @@
+* {margin: 0; padding: 0;}
+ul,li {margin: 0; padding: 0; list-style: none;}
+body {
+  background-color: #ebfaff;
+}
+.App {
+  text-align: center;
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 340px;
+}
+h1 {
+  letter-spacing: 5px;
+  font-weight: 500; /* 추가 */ 
+  font-size: 22px;
+  background: linear-gradient(45deg, #35e1e1, #05a6bc);/* 추가 */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px; /* 추가 */
+ 
+}
+ul {margin-top: 20px;} /* 추가 */
+ul li {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #ddd;
+  cursor:pointer;
+}
+ul li:hover {background-color: #ddd;
+font-weight: bold; /* 추가 */
+border-radius: 10px;
+}
